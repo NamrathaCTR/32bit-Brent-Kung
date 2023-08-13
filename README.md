@@ -7,6 +7,7 @@ As a first step, we calculate 1st order P,G values by  G = A.B and P = A ⊕ B
 
 using 1st order P and G, we calculate 2nd order P,G as
 ![image](https://github.com/NamrathaCTR/32bit-Brent-Kung/assets/137050660/0bbcabe4-3683-4138-979d-05c0f161d616)
+
 Like wise calculate till 6th order P,Gs. 
 
 I have used arrays to store P,Gs. Every P,G of a order will have size half of its below order P,G size.
